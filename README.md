@@ -5,4 +5,4 @@ WDD130 Team 3 Group Project
 Chikara Karino
 
 # Live Site
-https://petitebread.github.io/wdd130-karino/
+https://cbjager.github.io/wdd130-karino/
