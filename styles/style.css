@@ -1,0 +1,34 @@
+/*Primary #003049
+Secondary #FDF0D5
+Accent 1  #C1121F
+Accent 2  #White 
+
+Heading: Mozilla Text
+Paragraph: Racing Sans One */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Mozilla Text", serif;
+}
+
+body {
+    margin: 0;
+    background-color: #fdf0d5;
+    color: #003049;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+header {
+    background-color: #003049;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    background-color: #003049;
+    color: white;
+}
