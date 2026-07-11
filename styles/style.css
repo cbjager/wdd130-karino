@@ -220,6 +220,125 @@ footer p {
     padding: 1vw;
 }
 
+
+
+
+
+
+
+
+/* Schedule Page */
+
+.page-intro,
+.fixtures,
+.match-details,
+.standings,
+.upcoming-match {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 50px 0 50px 3vw;
+    text-align: left;
+}
+
+.page-intro h1 {
+    font-size: 3vw;
+    color: #003049;
+    margin-bottom: 0.5vw;
+}
+
+.page-intro h2 {
+    font-size: 2vw;
+    color: #C1121F;
+    margin-bottom: 1vw;
+}
+
+.page-intro p {
+    font-size: 1.3vw;
+    max-width: 700px;
+    margin: 0;
+}
+
+.fixtures h2,
+.match-details h2,
+.standings h2,
+.upcoming-match h2 {
+    font-size: 2.5vw;
+    color: #C1121F;
+    margin-bottom: 1.5vw;
+}
+
+.fixtures table,
+.standings table {
+    margin: 0;
+    width: 60vw;
+}
+
+.match-details article {
+    background: white;
+    border: 0.25vw solid #003049;
+    padding: 1.5vw;
+    margin: 0 0 1.5vw;
+    max-width: 700px;
+    text-align: left;
+}
+
+.match-details h3 {
+    font-size: 1.8vw;
+    color: #C1121F;
+    margin: 0 0 0.5vw;
+}
+
+.match-details p {
+    font-size: 1.2vw;
+    margin: 0.3vw 0;
+}
+
+.standings p {
+    font-size: 1.2vw;
+    max-width: 700px;
+    margin: 1.5vw 0 0;
+}
+
+.match-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: 0;
+    border: 0.25vw solid #003049;
+    text-align: left;
+}
+
+.match-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.match-info > div {
+    background: white;
+    padding: 2vw;
+}
+
+.match-info h3 {
+    font-size: 1.8vw;
+    color: #C1121F;
+    margin: 0 0 1vw;
+}
+
+.match-info p {
+    font-size: 1.2vw;
+    margin: 0.5vw 0;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 700px) {
     header img {
         width: 35vw;
@@ -345,4 +464,68 @@ footer p {
         font-size: 3vw;
         padding: 3vw;
     }
+
+
+    /*Schedule*/
+    .page-intro h1 {
+        font-size: 6vw;
+    }
+
+    .page-intro h2 {
+        font-size: 4.5vw;
+    }
+
+    .page-intro p {
+        font-size: 3.3vw;
+        max-width: 90vw;
+    }
+
+    .fixtures h2,
+    .match-details h2,
+    .standings h2,
+    .upcoming-match h2 {
+        font-size: 5vw;
+    }
+
+    .fixtures table,
+    .standings table {
+        width: 90vw;
+    }
+
+    .match-details article {
+        max-width: 90vw;
+        padding: 4vw;
+    }
+
+    .match-details h3 {
+        font-size: 4vw;
+    }
+
+    .match-details p {
+        font-size: 3vw;
+    }
+
+    .standings p {
+        font-size: 3vw;
+        max-width: 90vw;
+    }
+
+    .match-info {
+        grid-template-columns: 1fr;
+        max-width: 90vw;
+    }
+
+    .match-info > div {
+        padding: 4vw;
+    }
+
+    .match-info h3 {
+        font-size: 4vw;
+    }
+
+    .match-info p {
+        font-size: 3vw;
+    }
+   
+   
 }
