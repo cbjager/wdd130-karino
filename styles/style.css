@@ -6,6 +6,9 @@ Accent 2  #White
 Heading: Mozilla Text
 Paragraph: Racing Sans One */
 
+@import url('https://fonts.googleapis.com/css?family=Mozilla+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
 h1,
 h2,
 h3,
@@ -31,4 +34,315 @@ nav a {
 footer {
     background-color: #003049;
     color: white;
+}
+
+/* Squad Page */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 20vw;
+    height: 8.5vw;
+    object-fit: cover;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 3vw;
+}
+
+nav a {
+    font-size: 2vw;
+    text-decoration: none;
+    margin-left: 2vw;
+}
+
+nav a:hover {
+    color: #C1121F;
+}
+
+.squad {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.squad, .featured, .goalkeepers, .defenders, .midfielders, .forwards, .stats {
+    width: 90vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.squad img {
+    border: 0.5vw solid #003049;
+}
+
+.squad-text {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 30vw;
+    left: 20vw;
+    width: 45vw;
+    text-align: center;
+    border: 0.5vw solid #003049;
+    padding: 2vw 2vw;
+}
+
+.squad-text h1 {
+    font-size: 4vw;
+    color: #C1121F;
+    margin: 0 0 0.5vw 0;
+}
+
+.squad-text p {
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.featured h2 {
+    font-size: 3vw;
+}
+
+.player-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.player-card img {
+    width: 20vw;
+    border: 0.25vw solid #003049;
+}
+
+.player-card h3 {
+    font-size: 2.5vw;
+    color: #C1121F;
+    margin: 0.5vw 0;
+}
+
+.player-card p {
+    font-size: 1.3vw;
+    margin: 0;
+}
+
+#left-card {
+    border-right: 0.25vw solid #003049;
+}
+
+#right-card {
+    border-left: 0.25vw solid #003049;
+}
+
+.goalkeepers h3, .defenders h3, .midfielders h3, .forwards h3 {
+    font-size: 2vw;
+    color: #C1121F;
+    margin: 0;
+    margin-bottom: 1vw;
+}
+
+.gk-grid, .df-grid, .mf-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60vw;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fw-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 60vw;
+    justify-self: center;
+    margin: 0;
+}
+
+.gk-grid p, .df-grid p, .mf-grid p, .fw-grid p {
+    font-size: 1.5vw;
+    background: white;
+    margin: 0;
+    padding: 0.25vw 0;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    border: 0.25vw solid #003049;
+}
+
+.top-middle, .bottom-middle {
+    border-top: 0.25vw solid #003049;
+    border-bottom: 0.25vw solid #003049;
+}
+
+.mid-left, .mid-right {
+    border-left: 0.25vw solid #003049;
+    border-right: 0.25vw solid #003049;
+}
+
+.top-sec-left {
+    border-top: 0.25vw solid #003049;
+    border-bottom: 0.25vw solid #003049;
+    border-right: 0.25vw solid #003049;
+}
+
+.top-sec-right {
+    border-top: 0.25vw solid #003049;
+    border-bottom: 0.25vw solid #003049;
+    border-left: 0.25vw solid #003049;
+}
+
+table {
+    background: white;
+    width: 40vw;
+    justify-self: center;
+    border-collapse: collapse;
+}
+
+th {
+    color: #C1121F;
+}
+
+th, td {
+    font-size: 1.5vw;
+    border: 0.25vw solid #003049;
+    padding: 0.25vw 0;
+}
+
+footer p {
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    padding: 1vw;
+}
+
+@media screen and (max-width: 700px) {
+    header img {
+        width: 35vw;
+        height: 14.9vw;
+    }
+
+    nav {
+        margin-right: 4vw;
+    }
+
+    nav a {
+        font-size: 4.5vw;
+        margin-left: 3vw;
+    }
+
+    .squad, .featured, .goalkeepers, .defenders, .midfielders, .forwards, .stats {
+        width: 100%;
+    }
+
+    .squad-text {
+        top: 33vw;
+        left: 8vw;
+        width: 80vw;
+    }
+
+    .squad-text h1 {
+        font-size: 6.5vw;
+    }
+
+    .squad-text p {
+        font-size: 3vw;
+    }
+
+    .featured h2 {
+        font-size: 5.5vw;
+        margin: 0;
+    }
+
+    .player-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .player-card {
+        padding: 3vw;
+    }
+
+    .player-card img {
+        width: 70vw;
+        border: 0.5vw solid #003049;
+    }
+
+    .player-card h3 {
+        font-size: 4.5vw;
+    }
+
+    .player-card p {
+        font-size: 3.3vw;
+    }
+
+    #left-card {
+        border-right: none;
+        border-bottom: 0.5vw solid #003049;
+    }
+
+    #right-card {
+        border-left: none;
+        border-top: 0.5vw solid #003049;
+        padding-bottom: 0;
+    }
+
+    .goalkeepers h3, .defenders h3, .midfielders h3, .forwards h3 {
+        font-size: 4.5vw;
+        margin-bottom: 1vw;
+    }
+
+    .gk-grid, .df-grid, .mf-grid, .fw-grid {
+        width: 100%;
+    }
+
+    .gk-grid p, .df-grid p, .mf-grid p, .fw-grid p {
+        font-size: 2.9vw;
+        padding: 0.25vw 0.25vw;
+    }
+
+    .top-left, .top-right, .bottom-left, .bottom-right {
+        border: 0.5vw solid #003049;
+    }
+
+    .top-middle, .bottom-middle {
+        border-top: 0.5vw solid #003049;
+        border-bottom: 0.5vw solid #003049;
+    }
+
+    .mid-left, .mid-right {
+        border-left: 0.5vw solid #003049;
+        border-right: 0.5vw solid #003049;
+    }
+
+    .top-sec-left {
+        border-top: 0.5vw solid #003049;
+        border-bottom: 0.5vw solid #003049;
+        border-right: 0.5vw solid #003049;
+    }
+
+    .top-sec-right {
+        border-top: 0.5vw solid #003049;
+        border-bottom: 0.5vw solid #003049;
+        border-left: 0.5vw solid #003049;
+    }
+
+    table {
+        width: 66.67vw;
+        margin: 50px auto;
+    }
+
+    th, td {
+        font-size: 2.9vw;
+        border: 0.5vw solid #003049;
+        padding: 0.25vw 0.25vw;
+    }
+
+    footer p {
+        font-size: 3vw;
+        padding: 3vw;
+    }
 }
