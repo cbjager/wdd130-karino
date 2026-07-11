@@ -151,8 +151,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 60vw;
-    justify-self: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -161,7 +160,7 @@ nav a:hover {
     grid-template-columns: repeat(5, 1fr);
     width: 60vw;
     justify-self: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .gk-grid p, .df-grid p, .mf-grid p, .fw-grid p {
@@ -200,7 +199,7 @@ nav a:hover {
 table {
     background: white;
     width: 40vw;
-    justify-self: center;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
