@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squad</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -17,27 +18,29 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="squad">
             <img src="images/squad.jpg" alt="Team Photo">
-            <h1>Meet the Samurai Blue</h1>
-            <p>The Japanese national team enters the 2026 FIFA World Cup with a blend of experience and rising talent.</p>
+            <div class="squad-text">
+                <h1>Meet the Samurai Blue</h1>
+                <p>The Japanese national team enters the 2026 FIFA World Cup with a blend of experience and rising talent.</p>
+            </div>
         </section>
         <section class="featured">
             <h2>Featured Players</h2>
             <div class="player-grid">
-                <div class="player-card">
+                <div class="player-card" id="left-card">
                     <img src="images/squad-kubo.jpg" alt="Takefusa Kubo Photo">
                     <h3>Takefusa Kubo</h3>
                     <p>Midfielder</p>
                     <p>Real Sociedad (Spain)</p>
                 </div>
-                <div class="player-card">
+                <div class="player-card" id="middle-card">
                     <img src="images/squad-kamada.jpg" alt="Daichi Kamada Photo">
                     <h3>Daichi Kamada</h3>
                     <p>Midfielder</p>
                     <p>Crystal Palace (England)</p>
                 </div>
-                <div class="player-card">
+                <div class="player-card" id="right-card">
                     <img src="images/squad-suzuki.webp" alt="Zion Suzuki Photo">
                     <h3>Zion Suzuki</h3>
                     <p>Goalkeeper</p>
@@ -47,41 +50,49 @@
         </section>
         <section class="goalkeepers">
             <h3>Goalkeepers</h3>
-            <p>Zion Suzuki</p>
-            <p>Keisuke Osako</p>
-            <p>Tomoki Hayakawa</p>
+            <div class="gk-grid">
+                <p class="top-left">Zion Suzuki</p>
+                <p class="top-middle">Keisuke Osako</p>
+                <p class="top-right">Tomoki Hayakawa</p>
+            </div>
         </section>
         <section class="defenders">
             <h3>Defenders</h3>
-            <p>Yuto Nagatomo</p>
-            <p>Shogo Taniguchi</p>
-            <p>Ko Itakura</p>
-            <p>Takehiro Tomiyasu</p>
-            <p>Tsuyoshi Watanabe</p>
-            <p>Hiroki Ito</p>
-            <p>Ayumu Seko</p>
-            <p>Yukinari Sugawara</p>
-            <p>Junnosuke Suzuki</p>
+            <div class="df-grid">
+                <p class="top-left">Yuto Nagatomo</p>
+                <p class="top-middle">Shogo Taniguchi</p>
+                <p class="top-right">Ko Itakura</p>
+                <p class="mid-left">Takehiro Tomiyasu</p>
+                <p class="mid-middle">Tsuyoshi Watanabe</p>
+                <p class="mid-right">Hiroki Ito</p>
+                <p class="bottom-left">Ayumu Seko</p>
+                <p class="bottom-middle">Yukinari Sugawara</p>
+                <p class="bottom-right">Junnosuke Suzuki</p>
+            </div>
         </section>
         <section class="midfielders">
             <h3>Midfielders</h3>
-            <p>Wataru Endo</p>
-            <p>Junya Ito</p>
-            <p>Ritsu Doan</p>
-            <p>Daichi Kamada</p>
-            <p>Ao Tanaka</p>
-            <p>Takefusa Kubo</p>
-            <p>Keito Nakamura</p>
-            <p>Kaishu Sano</p>
-            <p>Yuito Suzuki</p>
+            <div class="mf-grid">
+                <p class="top-left">Wataru Endo</p>
+                <p class="top-middle">Junya Ito</p>
+                <p class="top-right">Ritsu Doan</p>
+                <p class="mid-left">Daichi Kamada</p>
+                <p class="mid-middle">Ao Tanaka</p>
+                <p class="mid-right">Takefusa Kubo</p>
+                <p class="bottom-left">Keito Nakamura</p>
+                <p class="bottom-middle">Kaishu Sano</p>
+                <p class="bottom-right">Yuito Suzuki</p>
+            </div>
         </section>
         <section class="forwards">
             <h3>Forwards</h3>
-            <p>Ayase Ueda</p>
-            <p>Daizen Maeda</p>
-            <p>Koki Ogawa</p>
-            <p>Keisuke Goto</p>
-            <p>Kento Shiogai</p>
+            <div class="fw-grid">
+                <p class="top-left">Ayase Ueda</p>
+                <p class="top-sec-left">Daizen Maeda</p>
+                <p class="top-middle">Koki Ogawa</p>
+                <p class="top-sec-right">Keisuke Goto</p>
+                <p class="top-right">Kento Shiogai</p>
+            </div>
         </section>
         <section class="stats">
             <table>
